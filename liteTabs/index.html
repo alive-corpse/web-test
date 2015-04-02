@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>liteTabs - a lightweight jQuery tabs plugin</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="litetabs.css" rel="stylesheet">
+</head>
+<body>
+
+
+	<div class='float'>
+		<h2>Default settings</h2>
+		<div class="tabbed">
+			<ul>
+				<li><a href="#1">SMS Sending</a></li>
+				<li><a href="#2">SMS Incoming</a></li>
+				<li><a href="#3">Number lists</a></li>
+			</ul>
+			<div name="#1">
+                <div class="menu">
+                    Test123</br>
+                    <b>test234</b></br>
+                    <u>test345</u>
+                </div>
+                <div class="main">
+                    test567
+                </div>
+			</div>
+			<div name="#2">
+                <div class="main">
+                    Maecenas rutrum augue vehicula nisi feugiat tempus. Aenean pretium fringilla eleifend. Ut posuere vestibulum lorem quis iaculis.
+                    Nullam luctus ipsum aliquam justo convallis egestas. Vivamus mattis nunc molestie nisi tincidunt gravida. Aliquam erat volutpat.
+                    Donec a dolor vitae quam gravida pharetra euismod eget metus. Ut nisi quam, molestie vitae semper non, malesuada quis justo.
+                    Quisque magna velit, eleifend hendrerit vestibulum non, dignissim sed felis.
+                </div>
+			</div>
+			<div name="#3">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies fermentum tempor.
+				Maecenas rutrum augue vehicula nisi feugiat tempus. Aenean pretium fringilla eleifend. Ut posuere vestibulum lorem quis iaculis.
+				Nullam luctus ipsum aliquam justo convallis egestas. Vivamus mattis nunc molestie nisi tincidunt gravida. Aliquam erat volutpat.
+				Donec a dolor vitae quam gravida pharetra euismod eget metus. Ut nisi quam, molestie vitae semper non, malesuada quis justo.
+				Quisque magna velit, eleifend hendrerit vestibulum non, dignissim sed felis.
+			</div>
+		</div>
+
+	</div>
+
+	<script src="jquery.min.js"></script>
+    <script src="litetabs.jquery.js"></script>
+	<script>
+		$('.tabbed').liteTabs({ borders: false, width: 800, height: 500 });
+    </script>	
+	
+</body>
+</html>
